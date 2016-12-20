@@ -1,0 +1,27 @@
+// Media Query -> JS
+
+html {
+  &:before {
+    display: none;
+  }
+  @media screen and (max-width: $screen-sm-min - 1) {
+    &:before {
+      content: 'xs';
+    }
+  }
+  @media screen and (max-width: $screen-sm-min) {
+    &:before {
+      content: 'sm';
+    }
+  }
+  @media screen and (max-width: $screen-md-min) {
+    &:before {
+      content: 'md';
+    }
+  }
+  @media screen and (max-width: $screen-lg-min) {
+    &:before {
+      content: 'lg';
+    }
+  }
+}
