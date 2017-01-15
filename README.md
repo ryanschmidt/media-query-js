@@ -1,6 +1,6 @@
 # Media Query -> JS
 
-Set your media query breakpoints in CSS and use those breakpoints in JS.
+Use your CSS breakpoints in JS.
 
 ## Requirements
 
